@@ -1,0 +1,23 @@
+# Maven / Java build
+target/
+*.class
+*.jar
+*.war
+*.log
+# Editors
+.idea/
+.settings/
+.classpath
+.project
+.vscode/settings.json
+# Machine-local secrets and database
+.env
+.env.*
+!.env.example
+application-local.properties
+**/application-local.properties
+*.db
+*.mv.db
+*.trace.db
+.DS_Store
+Thumbs.db
